@@ -1,0 +1,7 @@
+Faits constates,2008,2009,2010,2011,2012,2013
+Atteintes aux biens,48544,46438,44490,44988,45595,47043
+Atteintes volontaires à l'intégrite physique,12133,11458,11367,10820,11214,11450
+Escroqueries et infractions economiques et financieres,7063,4723,5099,5986,5572,5805
+Infractions revelees par l'action des services,7941,8276,8087,8687,8021,6959
+Atteintes sexuelles,227,292,213,234,208,167
+crime_id,1,2,3,4,5,6,7
