@@ -16,7 +16,7 @@
                  
                 <nav>
                     <ul>
-                        <li><a href="menu.html">Accueil</a></li>
+                        <li><a href="index.php">Accueil</a></li>
                         <li><a href="Société.html">Société</a></li>
                         <li><a href="Services.html">Services</a></li>
                         <li><a href="Agences.html">Agences</a></li>
@@ -37,19 +37,18 @@
                     CARTE
 
                 </article>
-                <aside>
-                    <h1>LIVE COVERAGE</h1>
-                    <p id="top"><img src="images/top.jpg" alt="top" /></p>
-                    
-                </aside>
+                <div id="graphique">
+                    <h1>Graphique :</h1> 
+                     <iframe src="http://cf.datawrapper.de/cDRfP/1/" style="border: 0" frameborder="0" align="middle"  allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" allowTransparency="true"  width="530" height="400"> </iframe>
+                </div>
             </section>
         </div>
-    </body>
-<footer>
+
+       <footer>
         <div class="centercolumn">
             <br>
             <br>
-        Copyright © 1987-2013 ETNA Tous droits réservés.
+        Copyright © 1987-2014 ETNA Tous droits réservés.
         </div>
 </footer>
 </html>
