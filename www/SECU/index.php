@@ -16,7 +16,7 @@
                  
                 <nav>
                     <ul>
-                        <li><a href="menu.html">Accueil</a></li>
+                        <li><a href="index.php">Accueil</a></li>
                         <li><a href="Société.html">Société</a></li>
                         <li><a href="Services.html">Services</a></li>
                         <li><a href="Agences.html">Agences</a></li>
@@ -49,7 +49,7 @@
         <div class="centercolumn">
             <br>
             <br>
-        Copyright © 1987-2013 ETNA Tous droits réservés.
+        Copyright © 1987-2014 ETNA Tous droits réservés.
         </div>
 </footer>
 </html>
