@@ -39,7 +39,8 @@
                 </article>
                 <div id="graphique">
                     <h1>Graphique :</h1> 
-                     <iframe src="http://cf.datawrapper.de/cDRfP/1/" style="border: 0" frameborder="0" align="middle"  allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" allowTransparency="true"  width="530" height="400"> </iframe>
+                     <iframe id="frame" src="http://cf.datawrapper.de/cDRfP/1/" style="border: 0" frameborder="0" align="middle"  allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" allowTransparency="true"  width="530" height="400"> 
+                     </iframe>
                 </div>
             </section>
         </div>
@@ -51,4 +52,16 @@
         Copyright © 1987-2014 ETNA Tous droits réservés.
         </div>
 </footer>
+
+<a href="http://jquery.com/">jQuery</a>
+    <script src="jquery.js"></script>
+<script>
+    $(document).ready(function () {
+        console.log("LOL");
+        console.log($("#frame").contents());
+        console.log($("link", $("#frame")));
+/*        $("link", $("#frame")).detach();*/
+        $("body", $("#frame")).append("<style>background: #000;</style>");
+    });
+</script>
 </html>
