@@ -1,0 +1,153 @@
+body
+{
+    background: url('images/fond_jaune.jpg') no-repeat;
+    background-size: 25px 50px;
+    background-size: 100% 100%;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+ 
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+
+header h1
+{
+    display: inline-block;
+    margin-bottom: 0px;
+    font-size: 100px;
+}
+ 
+header h2
+{
+    font-family: Dayrom, serif;
+    font-size: 2.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+ 
+nav
+{
+    display: inline-block;
+    width: 740px;
+    text-align: right;
+}
+ 
+nav ul
+{
+    list-style-type: none;
+}
+ 
+nav li
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+ 
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+ 
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+ 
+#banniere_image
+{
+    margin-top: 10px;
+    height: 300px;
+    border-radius: 5px;
+    background: url('images/cgh.jpg') no-repeat;
+    position: relative;
+    box-shadow: 2px 2px 2px black;
+    margin-bottom: 10px;
+}
+ 
+#banniere_description
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.6%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgb(24,24,24); /* Pour les anciens navigateurs */
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 0.8em;
+}
+ 
+article, aside
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+ 
+article
+{
+    width: 625px;
+    margin-right: 15px;
+}
+
+.under
+{
+    height: 200px;
+    width: 600px;
+}
+
+.photo
+{
+    height: 250px;
+    width: 350px;
+}
+
+
+ 
+.chouchou
+{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+ 
+article p
+{
+    font-size: 0.8em;
+}
+ 
+aside
+{
+    position: relative;
+    width: 235px;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-size: 0.9em;
+}
+ 
+#top
+{
+    text-align: center;
+}
+ 
+#top img
+{
+    border: 1px solid #181818;
+    height: 150px;
+    width: 200px;
+}
+ 
+aside img
+{
+    margin-right: 5px;
+}
+
