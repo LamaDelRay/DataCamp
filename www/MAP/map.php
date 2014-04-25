@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <html lang="fr">
+<!--
+
+	include ("crimyvelines2008.php");
+	include ("crimyvelines2009.php");
+	include ("crimyvelines2010.php");
+	include ("crimyvelines2011.php");
+	include ("crimyvelines2012.php");
+	include ("crimyvelines2013.php");
+
+-->
 	<head>
+		<div id="pieChart">
+		<?php 
+		include ("crimyvelines2008.php");
+//		include ("crimyvelines2009.php");
+//		include ("crimyvelines2010.php");
+//		include ("crimyvelines2011.php");
+//		include ("crimyvelines2012.php");
+//		include ("crimyvelines2013.php");
+		?>
+		</div>
+
 		<title>Products</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<a href="http://jquery.com/"></a>
@@ -47,6 +68,7 @@
 				$('.map .tooltip').stop().fadeTo(500,0);
 				});
 			});
+
 		</script>
 		<link rel="stylesheet" type="text/css" href="style.css" />
 	</head>
@@ -57,7 +79,7 @@
         <map name="Map">
         
         
-          <area shape="poly" coords="134,242,124,242,107,224,106,206,72,165,80,153,70,140,79,126,51,76,56,68,49,61,78,51,98,64,119,58,131,76,141,66,148,76,174,79,196,107,186,111,180,132,192,154,169,157,155,186,162,194,154,210,144,210,147,222" href="#">
+          <area id="jquerytest" shape="poly" coords="134,242,124,242,107,224,106,206,72,165,80,153,70,140,79,126,51,76,56,68,49,61,78,51,98,64,119,58,131,76,141,66,148,76,174,79,196,107,186,111,180,132,192,154,169,157,155,186,162,194,154,210,144,210,147,222" href="#">
           <area shape="poly" coords="78,51,91,33,92,21,106,7,111,14,104,23,123,33,184,25,187,34,208,40,215,32,261,51,270,63,260,73,247,95,207,96,196,107,174,80,149,78,142,66,132,75,120,59,99,63" href="#">
           <area shape="poly" coords="270,62,262,74,272,103,263,119,268,130,267,142,271,154,260,179,246,241,251,257,223,284,244,306,247,323,233,336,280,342,291,331,298,338,327,337,338,324,347,305,341,296,350,279,414,272,424,230,433,232,435,213,450,200,430,202,436,168,426,158,436,135,375,82,380,69,374,61,320,64,309,58,290,67,280,59" href="#">
           <area shape="poly" coords="221,283,193,285,182,271,175,283,142,285,143,258,132,253,133,243,148,223,143,211,153,209,162,194,155,185,169,158,191,156,210,161,224,169,247,166,260,179,245,240,250,256" href="#">
@@ -70,3 +92,4 @@
 	</body>
 
 </html>
+
