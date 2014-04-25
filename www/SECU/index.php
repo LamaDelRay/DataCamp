@@ -44,7 +44,7 @@
                 </div>
 -->
 <div id="pieChart">
-<?php include ("crimparis2009.php"); ?>
+<?php include ("page.php"); ?>
 </div>
             </section>
         </div>
