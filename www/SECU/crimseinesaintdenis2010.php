@@ -11,7 +11,7 @@
 var pie = new d3pie("pieChart", {
     "header": {
         "title": {
-            "text": "Faits constatés a Paris en 2010",
+            "text": "Faits constatés en Seine-Saint-Denis en 2010",
             "fontSize": 26,
             "color": "#000000",
             "font": "open sans"
@@ -42,27 +42,27 @@ var pie = new d3pie("pieChart", {
         "content": [
             {
                 "label": "Atteintes aux biens",
-                "value": 147233,
+                "value": 93636,
                 "color": "#2484c1"
             },
             {
                 "label": "Atteintes à l'intégrité physique",
-                "value": 28699,
+                "value": 30877,
                 "color": "#0c6197"
             },
             {
                 "label": "Escroqueries",
-                "value": 24094,
+                "value": 10067,
                 "color": "gray"
             },
             {
                 "label": "Infractions révélés par les services",
-                "value": 32527,
+                "value": 16142,
                 "color": "#604a4a"
             },
             {
                 "label": "Atteintes sexuelles",
-                "value": 2064,
+                "value": 292,
                 "color": "#a33030"
             }
         ]
