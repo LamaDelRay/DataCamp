@@ -13,10 +13,9 @@ body
     margin: auto;
 }
 
-#graphique
+#pieChart
 {
-    margin-left: 590px;
-
+    margin-left: 20%;
 }
 
 header h1
@@ -156,4 +155,3 @@ aside img
 {
     margin-right: 5px;
 }
-
