@@ -42,27 +42,27 @@ var pie = new d3pie("pieChart", {
         "content": [
             {
                 "label": "Atteintes aux biens",
-                "value": 141167,
+                "value": 167435,
                 "color": "#2484c1"
             },
             {
                 "label": "Atteintes à l'intégrité physique",
-                "value": 35294,
+                "value": 35421,
                 "color": "#0c6197"
             },
             {
                 "label": "Escroqueries",
-                "value": 25333,
+                "value": 27541,
                 "color": "gray"
             },
             {
                 "label": "Infractions révélés par les services",
-                "value": 33253,
+                "value": 19847,
                 "color": "#604a4a"
             },
             {
                 "label": "Atteintes sexuelles",
-                "value": 2053,
+                "value": 1573,
                 "color": "#a33030"
             }
         ]
