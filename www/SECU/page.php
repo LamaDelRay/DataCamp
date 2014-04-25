@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 
-
+<!--
 <form method="page.php" method="post">
 <input type="hidden" name="bouton" value="e2008" />
 <input type="submit" name="envoi" value="Essonne 2008" /></form>
 
+
 <form method="page.php" method="post">
 <input type="hidden" name="bouton" value="e2009" />
 <input type="submit" name="envoi" value="Essonne 2009" /></form>
-
 <form method="page.php" method="post">
 <input type="hidden" name="bouton" value="e2010" />
 <input type="submit" name="envoi" value="Essonne 2010" /></form>
@@ -27,6 +27,7 @@
 <input type="hidden" name="bouton" value="e2013" />
 <input type="submit" name="envoi" value="Essonne 2013" />
 </form>
+
 
 <form method="page.php" method="post">
 <input type="hidden" name="bouton" value="h2008" />
@@ -87,6 +88,7 @@
 <form method="page.php" method="post">
 <input type="hidden" name="bouton" value="sm2009" />
 <input type="submit" name="envoi" value="Seine et Marne 2009" /></form>
+
 
 <form method="page.php" method="post">
 <input type="hidden" name="bouton" value="sm2010" />
@@ -156,13 +158,13 @@
 <form method="page.php" method="post">
 <input type="hidden" name="bouton" value="vm2013" />
 <input type="submit" name="envoi" value="Val de Marne 2013" />
-</form>
+</form> 
 
 <form method="page.php" method="post">
 <input type="hidden" name="bouton" value="vo2008" />
 <input type="submit" name="envoi" value="Val d'Oise 2008" /></form>
 
-<form method="page.php" method="post">
+ <form method="page.php" method="post">
 <input type="hidden" name="bouton" value="vo2009" />
 <input type="submit" name="envoi" value="Val d'Oise 2009" /></form>
 
@@ -182,7 +184,7 @@
 <form method="page.php" method="post">
 <input type="hidden" name="bouton" value="vo2013" />
 <input type="submit" name="envoi" value="Val d'Oise 2013" />
-</form>
+</form> 
 
 <form method="page.php" method="post">
 <input type="hidden" name="bouton" value="y2008" />
@@ -208,17 +210,17 @@
 <form method="page.php" method="post">
 <input type="hidden" name="bouton" value="y2013" />
 <input type="submit" name="envoi" value="Yvelines 2013" />
-</form>
+</form> -->
 
-<!--<form method="page.php" method="post">
+<!-- <form method="page.php" method="post">
 <input type="hidden" name="bouton" value="2009" />
 <input type="submit" name="envoi" value="2009" />
-</form> -->
+</form>
 
  <form method="page.php" method="post">
 <input type="hidden" name="bouton" value="BACK" />
 <input type="submit" name="envoi" value="Retour" />
-</form>
+</form> -->
 
 <?php 
 $value = "";
