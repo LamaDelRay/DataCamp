@@ -1,0 +1,78 @@
+
+body
+{
+	background-image: radial-gradient(white, black);
+	color: white;
+}
+	
+
+.container
+{
+	margin-top: 3%;
+
+}
+footer
+{	
+	margin-top: 50%; 
+	margin-right: auto;
+	margin-left:  auto;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+.dropdown-menu
+{
+
+	background-image: radial-gradient(white, gray);
+	text-align: center;
+}
+	
+
+.caption
+{
+	background-image: radial-gradient(70% gray, 30% black);
+	padding-bottom: 8%;
+}
+
+.map
+{
+	width: 500px;
+	height: 354px;
+	margin-top: 45%;
+	background: url(map.png) left top no-repeat;
+	position: relative;
+}
+
+.map .overlay
+{
+	width: 500px;
+	height: 354px;
+	background: url(map.png) 500px top no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.map img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.map .tooltip
+{
+	position: fixed;
+	border-radius: 5px;
+	color: #FFF;
+	background: #000;
+	padding: 0 10px;
+	display: inline;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	text-align: center;
+}
