@@ -1,0 +1,36 @@
+#active
+{
+	background-color: blue;
+}
+
+body
+{
+	background-image:radial-gradient(white, black); 
+	
+
+.container
+{
+	margin-top: 3%;
+
+}
+footer
+{	
+	margin-top: 100%; 
+	margin-right: auto;
+	margin-left:  auto;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+.btn-primary
+{
+	margin-bottom: 1%;
+}
+
+.zomm_carte:hover
+{
+	width:600px;
+	height:900px;
+}
+
