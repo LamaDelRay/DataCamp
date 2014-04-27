@@ -3,8 +3,9 @@ body
 {
 	background-image: radial-gradient(white, black);
 	color: white;
+	font-family: serif;
 }
-	
+
 
 .container
 {
@@ -21,25 +22,82 @@ footer
 	text-align: center;
 }
 
+.graphique1
+{
+	margin-bottom: 50px;
+}
+
+.graphique2
+{
+	padding-bottom: 50px;
+}
+
+.graphique3
+{
+	padding-bottom: 50px;
+}
+
+.graphique4
+{
+	padding-bottom: 50px;
+}
+
+.graphique5
+{
+	padding-bottom: 50px;
+}
+.graphique6
+{
+	padding-bottom: 50px;
+}
+
+.graphique7
+{
+	padding-bottom: 50px;
+}
+
+.graphique8
+{
+	padding-bottom: 50px;
+}
+
+
+
+h2
+{
+	text-align: center;
+}
+
 .dropdown-menu
 {
 
 	background-image: radial-gradient(white, gray);
 	text-align: center;
 }
-	
 
+#course
+{
+	
+	background-image: url(course1.gif);
+	height: 20px;
+	width: 20px;
+	position:absolute;
+
+
+}
 .caption
 {
 	background-image: radial-gradient(70% gray, 30% black);
 	padding-bottom: 8%;
+	color: black;
+	padding-top: 15%
 }
 
 .map
 {
 	width: 500px;
 	height: 354px;
-	margin-top: 45%;
+	margin-top: 30%;
 	background: url(map.png) left top no-repeat;
 	position: relative;
 }

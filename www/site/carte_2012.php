@@ -76,7 +76,8 @@
   <div class="collapse navbar-collapse navbar-ex1-collapse">
     <ul class="nav navbar-nav">
       <li class="active"><a href="carte_2012.php">Carte 2012</a></li>
-      <li><a href="index.php">Accueil</a></li>
+      <li><a href="accueil.php">Accueil</a></li>
+      <li><a href="graphique.php">Graphique</a></li>
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cartes <span class="caret"></span></a>
         <ul class="dropdown-menu" role="menu">
@@ -109,18 +110,7 @@
   </div>
 </nav>
       
-       <div class="row">
-    <div class="col-md-6 col-md-offset-3">
- 
-      <div class="caption">
-        <h3>Région île-de-France : 2012</h3>
-        <p>
-          Le graphique représente les infractions commises dans la région île-de-France par département en 2012. Ces données ont été recueillies par la Police et la Gendarmerie Nationale et ont été publiés dans les journaux de la République ainsi que sur justice.gouv.fr et data.gouv.fr .
-        </p>
-        
-      </div>
-    </div>
-  </div>
+       
 
         <div class="row">
        <div class="col-md-4">
@@ -145,6 +135,19 @@
     <div id="pieChart">
       <?php  include ("page.php"); ?>
     </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+ 
+      <div class="caption">
+        <h3>Région île-de-France : 2012</h3>
+        <p>
+          Le graphique représente les infractions commises dans la région île-de-France par département en 2012. Ces données ont été recueillies par la Police et la Gendarmerie Nationale et ont été publiés dans les journaux de la République ainsi que sur justice.gouv.fr et data.gouv.fr .
+        </p>
+        
+      </div>
     </div>
   </div>
 
@@ -215,7 +218,7 @@
 
 
 
- <footer class="footer"><p>Ici se trouve le footer</p></footer>
+ <footer class="footer"><p>Remerciement à</p></footer>
 
 </body>
 <script src="bootstrap/js/bootstrap.min.js" ></script>
