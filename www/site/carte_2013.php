@@ -23,7 +23,7 @@
             //tooltip qui suit la souris
             $(document).mousemove(function(e){
                 $('.map .tooltip').css({
-                    top:e.pageY-$('.map .tooltip').height()-300,
+                    top:e.pageY-$('.map .tooltip').height()-30,
                     left:e.pageX-$('.map .tooltip').width()
                 });
             });
@@ -57,6 +57,11 @@
     </head>
  
 <body>
+
+<MARQUEE direction="right" scrollamount="7" class="image_defilante">
+    <img src="course1.gif">
+    <img src="course2.gif">
+  </marquee>
 
 <div class="container">
 

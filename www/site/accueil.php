@@ -50,23 +50,36 @@
 
 </script>
 
-<script>
-$(document).ready(function(){
-    $("#course")
+<script type="text/javascript">
+// if (navigator.geolocation)
+ // alert("Bravo ! Votre navigateur prend en compte la géolocalisation HTML5");
+//else
+ // alert("Dommage... Votre navigateur ne prend pas en compte la géolocalisation HTML5");
 
-    .animate({
-      left:'100%'
-    },{
-      duration : 2000, easing: 'linear'
-
-      });
-});
-
-
- //opacity:'0.5',
-      //height:'150px',
-      //width:'150px'
+function errorCallback(error){
+  switch(error.code){
+    case error.PERMISSION_DENIED:
+      alert("L'utilisateur n'a pas autorisé l'accès à sa position");
+      break;      
+    case error.POSITION_UNAVAILABLE:
+      alert("L'emplacement de l'utilisateur n'a pas pu être déterminé");
+      break;
+    case error.TIMEOUT:
+      alert("Le service n'a pas répondu à temps");
+      break;
+    }
+};
+if (navigator.geolocation)
+{
+  navigator.geolocation.getCurrentPosition(function(position)
+  {
+    alert("Latitude : " + position.coords.latitude + ", longitude : " + position.coords.longitude + "\nVous vous trouvez dans le 94 à Ivry sur Seine.");
+  });
+}
+else
+  alert("Votre navigateur ne prend pas en compte la géolocalisation HTML5");
 </script>
+
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
@@ -75,8 +88,16 @@ $(document).ready(function(){
 
 </head>
 
+<!--<div id="course"></div>-->
+
 <body>
-  <div id="course"></div>
+
+  <MARQUEE direction="right" scrollamount="7" class="image_defilante">
+    <img src="course1.gif">
+    <img src="course2.gif">
+  </marquee>
+  
+
   <div class="container">
 
     <nav class="navbar navbar-inverse" role="navigation">
@@ -90,6 +111,8 @@ $(document).ready(function(){
         </button>
         <a class="navbar-brand" href="#"></a>
       </div>
+
+
 
 
       <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -129,13 +152,17 @@ $(document).ready(function(){
       </div>
     </nav>
     
-
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <h3>Carte de la région île-de-France</h3>
+    </div>
+  </div>
   
  <div class="row">
 
-  <div class="col-sm-6 col-md-3">
+  <div class="col-md-8 col-md-offset-2">
     <a href="" class="thumbnail">
-      <img src="France-regions-departements.png" alt="carte" class="img-rounded">
+      <img src="carteidf.jpg" alt="carte" class="img-rounded">
     </a>
   </div>
   

@@ -50,22 +50,23 @@
 
 </script>
 
-<script>
+<!--<script>
 $(document).ready(function(){
     $("#course")
 
     .animate({
       left:'100%'
     },{
-      duration : 2000, easing: 'linear'
-
+      duration : 3000,
       });
 });
 
+      //width:'150px'
+</script>
 
  //opacity:'0.5',
       //height:'150px',
-      //width:'150px'
+      //width:'150px'-->
 </script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -76,6 +77,11 @@ $(document).ready(function(){
 </head>
 
 <body>
+  <MARQUEE direction="right" scrollamount="7" class="image_defilante">
+    <img src="course1.gif">
+    <img src="course2.gif">
+  </marquee>
+  
   <div id="course"></div>
   <div class="container">
 

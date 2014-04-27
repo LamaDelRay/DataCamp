@@ -4,12 +4,20 @@ body
 	background-image:linear-gradient(to bottom, #ECF3F3, white);
 	color: white;
 	font-family: serif;
+	cursor: url(curse.cur);
 }
+
+.thumbnail
+{
+	background-image: radial-gradient(white,#DCDFDF );
+}
+
+
 
 
 .container
 {
-	margin-top: 3%;
+	margin-top: -2%;
 
 }
 footer
@@ -62,7 +70,11 @@ footer
 }
 
 
-
+h3
+{
+	text-align: center;
+	color: black;
+}
 h2
 {
 	text-align: center;
@@ -71,20 +83,12 @@ h2
 .dropdown-menu
 {
 
-	background-image: radial-gradient(white, gray);
+	background-image: radial-gradient(white, #D4D7D7);
 	text-align: center;
 }
 
-#course
-{
-	
-	background-image: url(course1.gif);
-	height: 20px;
-	width: 20px;
-	position:absolute;
 
 
-}
 .caption
 {
 	background-image: radial-gradient(70% gray, 30% black);
