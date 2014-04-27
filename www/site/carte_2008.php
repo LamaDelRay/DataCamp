@@ -20,6 +20,7 @@
                 {name: 'Paris', slug:'Paris'}
             ];
 
+
             //tooltip qui suit la souris
             $(document).mousemove(function(e){
                 $('.map .tooltip').css({
