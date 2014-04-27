@@ -1,7 +1,7 @@
 
 body
 {
-	background-image: radial-gradient(white, black);
+	background-image:linear-gradient(to bottom, #ECF3F3, white);
 	color: white;
 	font-family: serif;
 }

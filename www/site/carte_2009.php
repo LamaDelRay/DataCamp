@@ -218,7 +218,8 @@
 
 
 
- <footer class="footer"><p>Remerciement à</p></footer>
+ 
+
 
 </body>
 <script src="bootstrap/js/bootstrap.min.js" ></script>

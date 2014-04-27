@@ -94,7 +94,7 @@ $(document).ready(function(){
 
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="Graphique.php">Graphique</a></li>
+          <li class="active"><a href="accueil.php">Accueil</a></li>
           <li><a href="accueil.php">Accueil</a></li>
           <li><a href="graphique.php">Graphique</a></li>
           <li class="dropdown">
@@ -129,49 +129,9 @@ $(document).ready(function(){
       </div>
     </nav>
     
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3">
-
-        <div class="caption">
-          <h2>Graphiques</h2>
-          <p>
-            Les graphiques représentent les infractions commises dans la région île-de-France par département entre les années 2008 a 2009. Ces données ont été recueillies par la Police et la Gendarmerie Nationale et ont été publiés dans les journaux de la République ainsi que sur justice.gouv.fr et data.gouv.fr .
-          </p>
-
-        </div>
-      </div>
-    </div>  
-
-
-
-
-
- 
-    <div class="row">
-      <div class="col-md-3 col-md-offset-3">
-
-      <div class="graphique1"><iframe src="http://cf.datawrapper.de/nn5T8/1/" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="600" height="400"></iframe></div>
-      
-      <div class="graphique2"><iframe src="http://cf.datawrapper.de/j7vuY/1/" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="600" height="400"></iframe></div>
-      
-      <div class="graphique3"><iframe src="http://cf.datawrapper.de/XWYeV/1/" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="600" height="400"></iframe></div>
-      
-      <div class="graphique4"><iframe src="http://cf.datawrapper.de/JfQcT/1/" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="600" height="400"></iframe></div>
-      
-      <div class="graphique5"><iframe src="http://cf.datawrapper.de/oNDch/1/" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="600" height="400"></iframe></div>
-      
-      <div class="graphique6"><iframe src="http://cf.datawrapper.de/9Mm9P/1/" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="600" height="400"></iframe></div>
-      
-      <div class="graphique7"><iframe src="http://cf.datawrapper.de/nqPcj/1/" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="600" height="400"></iframe></div>
-      
-      <div class="graphique8"><iframe src="http://cf.datawrapper.de/bpUhv/1/" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="600" height="400"></iframe></div>
-      
-    </div>
-  </div>
-</div>
 
   
-<!-- <div class="row">
+ <div class="row">
 
   <div class="col-sm-6 col-md-3">
     <a href="" class="thumbnail">
@@ -179,7 +139,7 @@ $(document).ready(function(){
     </a>
   </div>
   
-  <div class="col-sm-6 col-md-3">
+  <!--  <div class="col-sm-6 col-md-3">
     <a href="#" class="thumbnail">
       <img src="France-regions-departements.png" alt="carte" class="img-rounded">
     </a>
@@ -234,7 +194,6 @@ $(document).ready(function(){
   </div>
 
 </div> -->
-
 
 
 
